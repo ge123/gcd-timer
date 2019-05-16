@@ -1,0 +1,590 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A2A000CE228D2524006E93CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A000CD228D2524006E93CE /* AppDelegate.m */; };
+		A2A000D1228D2524006E93CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A000D0228D2524006E93CE /* ViewController.m */; };
+		A2A000D4228D2524006E93CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A000D2228D2524006E93CE /* Main.storyboard */; };
+		A2A000D6228D2527006E93CE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A2A000D5228D2527006E93CE /* Assets.xcassets */; };
+		A2A000D9228D2527006E93CE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A2A000D7228D2527006E93CE /* LaunchScreen.storyboard */; };
+		A2A000DC228D2527006E93CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A000DB228D2527006E93CE /* main.m */; };
+		A2A000E6228D2527006E93CE /* gcd_timer_semaphoreTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A000E5228D2527006E93CE /* gcd_timer_semaphoreTests.m */; };
+		A2A000F1228D2527006E93CE /* gcd_timer_semaphoreUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A000F0228D2527006E93CE /* gcd_timer_semaphoreUITests.m */; };
+		A2A00100228D2553006E93CE /* GZTimeManager.m in Sources */ = {isa = PBXBuildFile; fileRef = A2A000FE228D2553006E93CE /* GZTimeManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A2A000E2228D2527006E93CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2A000C1228D2524006E93CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2A000C8228D2524006E93CE;
+			remoteInfo = "gcd-timer-semaphore";
+		};
+		A2A000ED228D2527006E93CE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A2A000C1228D2524006E93CE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A2A000C8228D2524006E93CE;
+			remoteInfo = "gcd-timer-semaphore";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A2A000C9228D2524006E93CE /* gcd-timer-semaphore.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "gcd-timer-semaphore.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A000CC228D2524006E93CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		A2A000CD228D2524006E93CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		A2A000CF228D2524006E93CE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		A2A000D0228D2524006E93CE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		A2A000D3228D2524006E93CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A2A000D5228D2527006E93CE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A2A000D8228D2527006E93CE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A2A000DA228D2527006E93CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A000DB228D2527006E93CE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		A2A000E1228D2527006E93CE /* gcd-timer-semaphoreTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gcd-timer-semaphoreTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A000E5228D2527006E93CE /* gcd_timer_semaphoreTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gcd_timer_semaphoreTests.m; sourceTree = "<group>"; };
+		A2A000E7228D2527006E93CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A000EC228D2527006E93CE /* gcd-timer-semaphoreUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "gcd-timer-semaphoreUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A2A000F0228D2527006E93CE /* gcd_timer_semaphoreUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = gcd_timer_semaphoreUITests.m; sourceTree = "<group>"; };
+		A2A000F2228D2527006E93CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A2A000FE228D2553006E93CE /* GZTimeManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GZTimeManager.m; sourceTree = "<group>"; };
+		A2A000FF228D2553006E93CE /* GZTimeManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GZTimeManager.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A2A000C6228D2524006E93CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A000DE228D2527006E93CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A000E9228D2527006E93CE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A2A000C0228D2524006E93CE = {
+			isa = PBXGroup;
+			children = (
+				A2A000CB228D2524006E93CE /* gcd-timer-semaphore */,
+				A2A000E4228D2527006E93CE /* gcd-timer-semaphoreTests */,
+				A2A000EF228D2527006E93CE /* gcd-timer-semaphoreUITests */,
+				A2A000CA228D2524006E93CE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A2A000CA228D2524006E93CE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A2A000C9228D2524006E93CE /* gcd-timer-semaphore.app */,
+				A2A000E1228D2527006E93CE /* gcd-timer-semaphoreTests.xctest */,
+				A2A000EC228D2527006E93CE /* gcd-timer-semaphoreUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A2A000CB228D2524006E93CE /* gcd-timer-semaphore */ = {
+			isa = PBXGroup;
+			children = (
+				A2A000FF228D2553006E93CE /* GZTimeManager.h */,
+				A2A000FE228D2553006E93CE /* GZTimeManager.m */,
+				A2A000CC228D2524006E93CE /* AppDelegate.h */,
+				A2A000CD228D2524006E93CE /* AppDelegate.m */,
+				A2A000CF228D2524006E93CE /* ViewController.h */,
+				A2A000D0228D2524006E93CE /* ViewController.m */,
+				A2A000D2228D2524006E93CE /* Main.storyboard */,
+				A2A000D5228D2527006E93CE /* Assets.xcassets */,
+				A2A000D7228D2527006E93CE /* LaunchScreen.storyboard */,
+				A2A000DA228D2527006E93CE /* Info.plist */,
+				A2A000DB228D2527006E93CE /* main.m */,
+			);
+			path = "gcd-timer-semaphore";
+			sourceTree = "<group>";
+		};
+		A2A000E4228D2527006E93CE /* gcd-timer-semaphoreTests */ = {
+			isa = PBXGroup;
+			children = (
+				A2A000E5228D2527006E93CE /* gcd_timer_semaphoreTests.m */,
+				A2A000E7228D2527006E93CE /* Info.plist */,
+			);
+			path = "gcd-timer-semaphoreTests";
+			sourceTree = "<group>";
+		};
+		A2A000EF228D2527006E93CE /* gcd-timer-semaphoreUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A2A000F0228D2527006E93CE /* gcd_timer_semaphoreUITests.m */,
+				A2A000F2228D2527006E93CE /* Info.plist */,
+			);
+			path = "gcd-timer-semaphoreUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A2A000C8228D2524006E93CE /* gcd-timer-semaphore */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A000F5228D2527006E93CE /* Build configuration list for PBXNativeTarget "gcd-timer-semaphore" */;
+			buildPhases = (
+				A2A000C5228D2524006E93CE /* Sources */,
+				A2A000C6228D2524006E93CE /* Frameworks */,
+				A2A000C7228D2524006E93CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "gcd-timer-semaphore";
+			productName = "gcd-timer-semaphore";
+			productReference = A2A000C9228D2524006E93CE /* gcd-timer-semaphore.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A2A000E0228D2527006E93CE /* gcd-timer-semaphoreTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A000F8228D2527006E93CE /* Build configuration list for PBXNativeTarget "gcd-timer-semaphoreTests" */;
+			buildPhases = (
+				A2A000DD228D2527006E93CE /* Sources */,
+				A2A000DE228D2527006E93CE /* Frameworks */,
+				A2A000DF228D2527006E93CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2A000E3228D2527006E93CE /* PBXTargetDependency */,
+			);
+			name = "gcd-timer-semaphoreTests";
+			productName = "gcd-timer-semaphoreTests";
+			productReference = A2A000E1228D2527006E93CE /* gcd-timer-semaphoreTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A2A000EB228D2527006E93CE /* gcd-timer-semaphoreUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A2A000FB228D2527006E93CE /* Build configuration list for PBXNativeTarget "gcd-timer-semaphoreUITests" */;
+			buildPhases = (
+				A2A000E8228D2527006E93CE /* Sources */,
+				A2A000E9228D2527006E93CE /* Frameworks */,
+				A2A000EA228D2527006E93CE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A2A000EE228D2527006E93CE /* PBXTargetDependency */,
+			);
+			name = "gcd-timer-semaphoreUITests";
+			productName = "gcd-timer-semaphoreUITests";
+			productReference = A2A000EC228D2527006E93CE /* gcd-timer-semaphoreUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A2A000C1228D2524006E93CE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "高召葛";
+				TargetAttributes = {
+					A2A000C8228D2524006E93CE = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					A2A000E0228D2527006E93CE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A2A000C8228D2524006E93CE;
+					};
+					A2A000EB228D2527006E93CE = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = A2A000C8228D2524006E93CE;
+					};
+				};
+			};
+			buildConfigurationList = A2A000C4228D2524006E93CE /* Build configuration list for PBXProject "gcd-timer-semaphore" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A2A000C0228D2524006E93CE;
+			productRefGroup = A2A000CA228D2524006E93CE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A2A000C8228D2524006E93CE /* gcd-timer-semaphore */,
+				A2A000E0228D2527006E93CE /* gcd-timer-semaphoreTests */,
+				A2A000EB228D2527006E93CE /* gcd-timer-semaphoreUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A2A000C7228D2524006E93CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A000D9228D2527006E93CE /* LaunchScreen.storyboard in Resources */,
+				A2A000D6228D2527006E93CE /* Assets.xcassets in Resources */,
+				A2A000D4228D2524006E93CE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A000DF228D2527006E93CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A000EA228D2527006E93CE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A2A000C5228D2524006E93CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A000D1228D2524006E93CE /* ViewController.m in Sources */,
+				A2A00100228D2553006E93CE /* GZTimeManager.m in Sources */,
+				A2A000DC228D2527006E93CE /* main.m in Sources */,
+				A2A000CE228D2524006E93CE /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A000DD228D2527006E93CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A000E6228D2527006E93CE /* gcd_timer_semaphoreTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A2A000E8228D2527006E93CE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A2A000F1228D2527006E93CE /* gcd_timer_semaphoreUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A2A000E3228D2527006E93CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2A000C8228D2524006E93CE /* gcd-timer-semaphore */;
+			targetProxy = A2A000E2228D2527006E93CE /* PBXContainerItemProxy */;
+		};
+		A2A000EE228D2527006E93CE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A2A000C8228D2524006E93CE /* gcd-timer-semaphore */;
+			targetProxy = A2A000ED228D2527006E93CE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A2A000D2228D2524006E93CE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2A000D3228D2524006E93CE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A2A000D7228D2527006E93CE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A2A000D8228D2527006E93CE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A2A000F3228D2527006E93CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		A2A000F4228D2527006E93CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A2A000F6228D2527006E93CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T83739RUE3;
+				INFOPLIST_FILE = "gcd-timer-semaphore/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.client.gcd-timer-semaphore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A2A000F7228D2527006E93CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T83739RUE3;
+				INFOPLIST_FILE = "gcd-timer-semaphore/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.client.gcd-timer-semaphore";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A2A000F9228D2527006E93CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T83739RUE3;
+				INFOPLIST_FILE = "gcd-timer-semaphoreTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.client.gcd-timer-semaphoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gcd-timer-semaphore.app/gcd-timer-semaphore";
+			};
+			name = Debug;
+		};
+		A2A000FA228D2527006E93CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T83739RUE3;
+				INFOPLIST_FILE = "gcd-timer-semaphoreTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.client.gcd-timer-semaphoreTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/gcd-timer-semaphore.app/gcd-timer-semaphore";
+			};
+			name = Release;
+		};
+		A2A000FC228D2527006E93CE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T83739RUE3;
+				INFOPLIST_FILE = "gcd-timer-semaphoreUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.client.gcd-timer-semaphoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "gcd-timer-semaphore";
+			};
+			name = Debug;
+		};
+		A2A000FD228D2527006E93CE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = T83739RUE3;
+				INFOPLIST_FILE = "gcd-timer-semaphoreUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.test.client.gcd-timer-semaphoreUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "gcd-timer-semaphore";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A2A000C4228D2524006E93CE /* Build configuration list for PBXProject "gcd-timer-semaphore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A000F3228D2527006E93CE /* Debug */,
+				A2A000F4228D2527006E93CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2A000F5228D2527006E93CE /* Build configuration list for PBXNativeTarget "gcd-timer-semaphore" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A000F6228D2527006E93CE /* Debug */,
+				A2A000F7228D2527006E93CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2A000F8228D2527006E93CE /* Build configuration list for PBXNativeTarget "gcd-timer-semaphoreTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A000F9228D2527006E93CE /* Debug */,
+				A2A000FA228D2527006E93CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A2A000FB228D2527006E93CE /* Build configuration list for PBXNativeTarget "gcd-timer-semaphoreUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A2A000FC228D2527006E93CE /* Debug */,
+				A2A000FD228D2527006E93CE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A2A000C1228D2524006E93CE /* Project object */;
+}
